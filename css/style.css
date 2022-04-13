@@ -16,6 +16,7 @@
     transform: translate(-50%,-50%);
     border: 5px solid;
 }
+
 .titulo {
     font-size: 13px;
     padding: 10px;
@@ -40,6 +41,7 @@
     font-size: 50px;
     border: 3px solid;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .subtrai {
@@ -49,5 +51,13 @@
     padding: 20px;
 }
 
+
+
+
+@media (max-width: 600px) {
+    .subtrai, .soma {
+        color: #000;
+    }
+}
 
 
