@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-weight: bold;
     text-decoration: none;
     list-style: none;
+    font-weight: normal;
 }
 
 .container {
@@ -19,7 +19,11 @@
 .titulo {
     font-size: 13px;
     padding: 10px;
-    background-color: orange
+    background-color: orange;
+}
+
+.titulo h1 {
+    font-weight: bold;
 }
 
 .contador {
