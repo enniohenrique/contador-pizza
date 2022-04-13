@@ -51,7 +51,13 @@
     padding: 20px;
 }
 
-
+.btn-limpar {
+    background-color: orange;
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
 
 
 @media (max-width: 600px) {
