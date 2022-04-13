@@ -3,6 +3,7 @@
     padding: 0;
     font-weight: bold;
     text-decoration: none;
+    list-style: none;
 }
 
 .container {
@@ -28,15 +29,21 @@
 .flex-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
-.flex-container .diminui{
+.flex-container .subtrai, .soma{
     font-size: 50px;
     border: 3px solid;
     border-radius: 50%;
 }
-.flex-container .soma{
-    font-size: 50px;
-    border: 3px solid;
-    border-radius: 50%;
+
+.subtrai {
+    padding: 15px 20px 20px 20px;
 }
+.soma {
+    padding: 20px;
+}
+
+
+
