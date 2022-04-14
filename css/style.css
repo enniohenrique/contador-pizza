@@ -8,7 +8,6 @@
 }
 .fundo {
     height: 100vh;
-    background-image: linear-gradient(225deg, #ffb73b 0, #fea730 16.67%, #f79320 33.33%, #ed7b08 50%, #e26200 66.67%, #da4a00 83.33%, #d53200 100%);
 }
 
 .container {
